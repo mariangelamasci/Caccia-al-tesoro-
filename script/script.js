@@ -1,8 +1,8 @@
 function doLogin() {
-  var username = document.getElementByld("username").value;
-  var password = document.getElementByld("password").value;
+  var username = document.getElementByld("username") .value;
+  var password = document.getElementByld("password") .value;
   if (username == "" || password == "") {
-    alert (" Username e password sono obbligatori");
+    alert ("Username e password sono obbligatori");
   }
 els {
 //chiama il server per effetuare la verifica 
