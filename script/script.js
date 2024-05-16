@@ -20,5 +20,10 @@ body: JSON. stringify({
 • then (data => {
   console.log(data);
   window.location.href = "game.html";
+})
+•catch( (error) => {
+  console.error("Error" , error);
 });
 }
+}
+
